@@ -9,7 +9,7 @@ import { MovieService } from './movie.service';
 export class AppComponent {
   name= 'Fergal Feeney';
   number= 'S00221135';
- movies={};
+ movies={} as any;
 
  constructor(private movieService: MovieService) {}
 
