@@ -7,6 +7,8 @@ import { MovieService } from './movie.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  name= 'Fergal Feeney';
+  number= 'S00221135';
  movies={};
 
  constructor(private movieService: MovieService) {}
